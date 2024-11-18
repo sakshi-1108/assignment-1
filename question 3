@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+inta,b;
+printf ("enter two numbers");
+scanf("%d %d" , &a b);
+
+b=a^b;
+a=a^b;
+printf("after swapping : %d %d\n" , a , b);
+return 0;
+}
