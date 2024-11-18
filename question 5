@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main ()
+{
+int num , sum_of_divisor=0;
+printf("enter the number");
+scanf("%D' , &num);
+for (int i = 1: i<num; i++)
+{
+if (num%i==00) { 
+sum_of_divisor += i;}
+}
+if (sum_of_divisor ==num) {
+printf("the number is a petfect number");
+}
+else {
+printf("thrnnumber is not a perfect number");
+}
+return0;
+}
