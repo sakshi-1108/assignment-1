@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main() {
+int a,b;
+printf("enter value of a");
+printf("enter value of b");
+scanf("%d" , &a);
+scanf("&d" , &b);
+if (a>b&&b>0) {
+printf("first quadrant");
+}
+else if (a<0&&b>0) {
+printf("second quadrant");
+}
+else if (a<0&&b<0) {
+printf("third quadrant");
+}
+else if (a>0&&b<0) {
+printf("fourth quadrant");
+}
+else if (a==0&&b==0) {
+printf("at the origin");
+}
+else {
+printf("not defined");
+}
+return0;
+}
