@@ -4,6 +4,7 @@ int main()
 inta,b;
 printf ("enter two numbers");
 scanf("%d %d" , &a b);
+//code
 
 b=a^b;
 a=a^b;
